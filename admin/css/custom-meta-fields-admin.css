@@ -1,0 +1,76 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+.widefat .button-edit {
+    margin-right: 5px;
+}
+.widefat .button-delete {
+    margin-right: 5px;
+}
+
+h2.wp-heading-inline {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.postbox-meta{
+    margin: 1em;
+}
+
+.postbox-meta-header{
+    display: inline-block;
+    margin:10px;
+}
+
+.postbox-meta-header-btns{
+    margin:10px;
+}
+
+.remove_item{
+    color: #b32d2e;
+    cursor: pointer;
+}
+
+.dashicons{
+    vertical-align: text-top;
+}
+
+.cmf-box{
+    margin:0;
+    padding:0;
+}
+
+.cmf-box > .cmf-field {
+    position: relative;
+    margin: 0;
+    padding: 16px;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #EAECF0;
+}
+
+.cmf-box > .cmf-field:first-child {
+    border-top: none;
+    margin-top: 0;
+}
+
+.cmf-label {
+    vertical-align: top;
+    margin: 0 0 10px;
+}
+
+.cmf-label label,
+.cmf-label span {
+    display: block;
+    font-weight: 500;
+    margin: 0 0 3px;
+    padding: 0;
+}
+
+.cmf-small{
+    font-size:0.8em;
+    font-weight: normal;
+    color:#667085;
+}
