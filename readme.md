@@ -6,7 +6,10 @@ Author: Norbert Feria
 
 == FEATURES ==
 
-
+- Create custom fields for your posts and custom post types.
+- Create array based custom field.
+- Create boxes for your custom fields
+- shortcode to display the custom field's values
 
 == INSTALLATION ==
 
