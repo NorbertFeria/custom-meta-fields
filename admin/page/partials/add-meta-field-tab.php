@@ -76,7 +76,8 @@
 										)
 									);
 									foreach ( $meta_boxes as $meta_box ) {
-										echo '<option value="' . esc_attr( $meta_box->ID ) . '" ' . selected( $meta_box->ID, $parent_meta_box_id, false ) . '>' . esc_html( $meta_box->post_title ) . '</option>';
+										$target_post = get_post_meta( $meta_box->ID, 'cmf_target_post', true );
+										echo '<option value="' . esc_attr( $meta_box->ID ) . '" ' . selected( $meta_box->ID, $parent_meta_box_id, false ) . '>' . esc_html( $meta_box->post_title ) . '-' . esc_html( $target_post ) . '</option>';
 									}
 									?>
 								</select>
