@@ -49,7 +49,7 @@
 
 					<input type="hidden" name="action" value="<?php echo esc_html( $form_action ); ?>">
 					<input type="hidden" name="context" value="meta_field">
-					<?php echo wp_kses( $post_id_input ); ?>
+					<?php echo $post_id_input; ?>
 
 					<table class="form-table">
 						<tr>
